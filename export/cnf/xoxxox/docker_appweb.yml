@@ -1,0 +1,15 @@
+networks:
+  default:
+    name: xoxxox_netmid
+    external: true
+services:
+  xoxxox_appweb:
+    image: xoxxox_envweb:001
+    container_name: xoxxox_appweb
+    volumes:
+    - ../../../export:/opt/common
+    env_file:
+    - ./envdir.txt
+    ports:
+    - 10002:80
+    command: "python /opt/common/bin/xoxxox/srvweb.py"
