@@ -1,4 +1,4 @@
-# cnnmmd: cnnmmd_xoxxox_appweb
+# cnnmmd_xoxxox_appweb
 
 [eng (English)](#Overview) | [jpn (日本語)](#概要)
 
